@@ -7,6 +7,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import FAQpage from "./pages/FAQpage.jsx"
 import Modal from "./components/Modal";
 import CursorTrail from "./CursorTrail.jsx";
+import BackToTop from "./components/BackToTop"
 
 import wrinkleImg from "./assets/wrinkleImg.jpg";
 import volumeImg from "./assets/volumeImg.jpg";
@@ -136,6 +137,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/faq" element={<FAQpage />} />
       </Routes>
+      <BackToTop />
       <Footer />
     </>
   );
