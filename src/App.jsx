@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import FAQPage from "./pages/FAQpage"
+import FAQpage from "./pages/FAQpage"
 import Modal from "./components/Modal";
 import CursorTrail from "./CursorTrail.jsx";
 
@@ -134,7 +134,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/faq" element={<FAQPage />} />
+        <Route path="/faq" element={<FAQpage />} />
       </Routes>
       <Footer />
     </>

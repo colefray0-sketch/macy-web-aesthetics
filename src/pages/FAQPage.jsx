@@ -1,6 +1,6 @@
 import FAQ from "../components/FAQ"
 
-function FAQPage() {
+function FAQpage () {
   return (
     <section>
       <h1>Frequently Asked Questions</h1>
@@ -298,4 +298,4 @@ function FAQPage() {
   )
 }
 
-export default FAQPage
+export default FAQpage
