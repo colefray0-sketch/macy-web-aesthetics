@@ -260,14 +260,7 @@ function FAQpage () {
            question="Are there any side effects after Rejuran injections?"
           answer={
             <>
-              <p>Administered via small superficial injections.</p>
               <p>Temporary redness, swelling, or minor bruising may occur.</p>
-              <p>
-                Results develop gradually over weeks as the skin repairs.
-              </p>
-              <p>
-                Not suitable during pregnancy or active infection.
-              </p>
             </>
           }
         />
