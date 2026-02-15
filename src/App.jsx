@@ -39,7 +39,7 @@ function HomePage() {
             Honest Aesthetics.
           </h1>
           <p>
-            At Macy Web Aesthetics, we focus on subtle, skin-first treatments
+            At Macy Flora Aesthetics, we focus on subtle, skin-first treatments
             designed to enhance — not change — your natural features.
             Every treatment is tailored, conservative, and guided by
             clinical judgment.
@@ -120,7 +120,7 @@ Subtle volumisation of the lips and cheeks to support facial balance and restore
       <Modal show={showModal} onClose={closeModal}>
         <iframe
           src="https://bookings.gettimely.com/macyflora/book"
-          title="Macy Web Aesthetics Booking"
+          title="Macy Flora Aesthetics Booking" 
         />
       </Modal>
     </>

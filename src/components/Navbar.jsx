@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Macy Web Aesthetics</div>
+      <div className="logo">Macy Flora Aesthetics </div>
 
       <div className="nav-links">
         <button onClick={() => scrollToSection("home")}>Home</button>
