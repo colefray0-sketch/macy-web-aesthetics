@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import FAQPage from "./pages/FAQpage";
+import FAQPage from "./pages/FAQpage"
 import Modal from "./components/Modal";
 import CursorTrail from "./CursorTrail.jsx";
 
