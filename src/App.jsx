@@ -8,6 +8,7 @@ import FAQpage from "./pages/FAQpage.jsx";
 import Modal from "./components/Modal";
 import CursorTrail from "./CursorTrail.jsx";
 import BackToTop from "./components/BackToTop";
+import ModalFAQs from "./components/ModalFAQs";
 
 import wrinkleImg from "./assets/wrinkleImg.jpg";
 import volumeImg from "./assets/volumeImg.jpg";
@@ -183,7 +184,7 @@ function HomePage() {
       </Modal>
 
       {/* REJURAN SELECTION MODAL */}
-      <Modal show={showRejuranChoice} onClose={closeFAQ}>
+      <ModalFAQs show={showRejuranChoice} onClose={closeFAQ}>
         <div className="faq-modal-content" style={{ textAlign: "center" }}>
           <h2>Select Rejuran Treatment</h2>
           <button className="button" onClick={() => chooseRejuran("rejuran-classic")}>
@@ -194,22 +195,22 @@ function HomePage() {
             Rejuran Eye Treatment
           </button>
         </div>
-      </Modal>
+      </ModalFAQs>
 
       {/* FAQ MODAL */}
-      <Modal show={showFAQModal} onClose={closeFAQ}>
+      <ModalFAQs show={showFAQModal} onClose={closeFAQ}>
         <div className="faq-modal-scroll">
           <div className="faq-container">
             {renderFAQContent()}
 
             <div className="faq-modal-footer">
-              <button className="button-outline" onClick={goToFullFAQ}>
+              <button className="button" onClick={goToFullFAQ}>
                 View Full FAQs
               </button>
             </div>
           </div>
         </div>
-      </Modal>
+      </ModalFAQs>
     </>
   );
 }
