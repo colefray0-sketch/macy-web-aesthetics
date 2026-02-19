@@ -5,15 +5,12 @@ function Modal({ show, onClose, children }) {
     <div className="modal-overlay" onClick={onClose}>
       <div
         className="modal-content"
-        onClick={(e) => e.stopPropagation()}
+        onClick={(e) => e.stopPropagation()} // Prevent click from closing modal
       >
         <button className="modal-close" onClick={onClose}>
           &times;
         </button>
-
-        <div className="modal-inner-scroll">
-          {children}
-        </div>
+        {children}
       </div>
     </div>
   );
