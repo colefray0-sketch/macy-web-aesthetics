@@ -144,21 +144,29 @@ function HomePage() {
             <div className="card" onClick={() => openFAQ("wrinkle")}>
               <img src={wrinkleImg} alt="Wrinkle Reduction" />
               <h3>Wrinkle Reduction</h3>
+              <p>Softened lines, natural movement.
+Anti-wrinkle treatments are carefully dosed to relax targeted muscles while preserving facial expression.  The goal is refreshed, not frozen results, with balance and facial harmony always prioritised.</p>
             </div>
 
             <div className="card" onClick={() => openFAQ("volume")}>
               <img src={volumeImg} alt="Lip & Cheek Volume" />
               <h3>Lip & Cheek Volume Restoration</h3>
+              <p>Structure, balance, and subtle support.
+Subtle volumisation of the lips and cheeks to support facial balance and restore structure following individual assessment.</p>
             </div>
 
             <div className="card" onClick={() => openFAQ("micro")}>
               <img src={microImg} alt="Microneedling" />
               <h3>Microneedling + Topicals</h3>
+              <p>Medical-grade microneedling stimulates collagen, improves texture, and supports long-term skin health.  This treatment targets acne scarring, fine lines, pigmentation, and overall skin quality using evidence- based techniques and sterile, clinical devices.</p>
             </div>
 
             <div className="card" onClick={() => openFAQ("rejuran")}>
               <img src={rejuranImg} alt="Rejuran" />
               <h3>Rejuran</h3>
+              <p>A polynucleotide-based skin rejuvenation treatment that supports natural repair and regeneration from within. It improves elasticity, hydration, and overall skin texture for a healthier, more youthful look.
+
+The line includes Rejuran Classic for full-face skin restoration and Rejuran I (Eye Treatment), specially formulated for the delicate under-eye area.</p>
             </div>
           </div>
         </div>
