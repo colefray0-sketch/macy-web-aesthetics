@@ -68,12 +68,15 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   position: relative;
+}
+
+.hero .p{
+  color: white;
 }
 
 .services-grid {
@@ -176,22 +179,29 @@ html {
 }*/
 
 @media (max-width: 768px) {
-  .hero-section {
+
+
+  .section-main {
     align-items: flex-end;   /* push content downward */
     padding-bottom: 80px;    /* lift slightly from bottom */
   }
 
   .hero {
-    text-align: left;
+    text-align: center;
+    padding: 50px 40px;
+    border-radius: 12px;
+    width: 100%;
+    color: white;
   }
 
   .hero h1 {
-    font-size: 32px;
+    font-size: 45px;
     line-height: 1.2;
   }
 
   .hero p {
     font-size: 15px;
+    color: white;
   }
 }
 

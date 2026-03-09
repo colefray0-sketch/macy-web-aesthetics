@@ -14,7 +14,7 @@ import wrinkleImg from "./assets/wrinkleImg.jpg";
 import volumeImg from "./assets/volumeImg.jpg";
 import microImg from "./assets/microImg.jpg";
 import rejuranImg from "./assets/rejuImg.jpeg";
-import heroBg from "./assets/heroImg.jpeg";
+import heroBg from "./assets/heroImg2.PNG";
 
 function HomePage() {
   const navigate = useNavigate();
