@@ -68,13 +68,13 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("public\heroImg.jpeg"); /* place image in public/images */
+  background-image: url("\heroImg.jpeg"); /* put image in public/images */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
   position: relative;
 }
-
 
 .services-grid {
   display: grid;
@@ -171,8 +171,28 @@ html {
   margin-bottom: 8px;
   color: var(--text-soft);
 }
-.section-main {
+/*.section-main {
   background-color: var(--bg-main);
+}*/
+
+@media (max-width: 768px) {
+  .hero-section {
+    align-items: flex-end;   /* push content downward */
+    padding-bottom: 80px;    /* lift slightly from bottom */
+  }
+
+  .hero {
+    text-align: left;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
 }
 
 .section-soft {

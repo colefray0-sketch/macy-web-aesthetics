@@ -13,7 +13,7 @@ import ModalFAQs from "./components/ModalFAQs";
 import wrinkleImg from "./assets/wrinkleImg.jpg";
 import volumeImg from "./assets/volumeImg.jpg";
 import microImg from "./assets/microImg.jpg";
-import rejuranImg from "./assets/rejuranImg.jpg";
+import rejuranImg from "./assets/rejuImg.jpeg";
 
 function HomePage() {
   const navigate = useNavigate();
