@@ -14,6 +14,7 @@ import wrinkleImg from "./assets/wrinkleImg.jpg";
 import volumeImg from "./assets/volumeImg.jpg";
 import microImg from "./assets/microImg.jpg";
 import rejuranImg from "./assets/rejuImg.jpeg";
+import heroBg from "./assets/heroImg.jpeg";
 
 function HomePage() {
   const navigate = useNavigate();
@@ -118,7 +119,7 @@ function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section id="home" className="section-main">
+      <section id="home" className="section-main" style={{ backgroundImage: `url(${heroBg})` }}>
         <div className="container hero">
           <h1>
             Refined Results. <br />
