@@ -68,7 +68,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("C:\my-apps\macy-web-aesthetics\public\heroImg.jpeg"); /* put image in public/images */
+  background-image: url("C:\my-apps\macy-web-aesthetics\assets\heroImg.jpeg"); /* put image in public/images */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
