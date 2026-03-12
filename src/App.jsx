@@ -65,9 +65,16 @@ function HomePage() {
         return (
           <>
             <h2>Wrinkle Reduction FAQs</h2>
-            <p><strong>How long does it last?</strong><br />Results typically last 3–4 months.</p>
-            <p><strong>When will I see results?</strong><br />You may notice improvement within 3–7 days.</p>
-            <p><strong>Will I look frozen?</strong><br />No — subtle, natural movement is prioritised.</p>
+            <p><strong>What is wrinkle reduction treatmeant?</strong><br />Wrinkle reduction treatments use small amounts of muscle-relaxing medication to soften lines caused by repeated facial movements such us frowning, squinting, or raising the eyebrows.</p>
+            <p><strong>What areas can be treated?</strong><br />
+            <p>Common areas include:</p>
+              <ul>
+                <li>Forehead lines</li>
+                <li>Frown lines between the eyebrows</li>
+                <li>Crow's feet around the eyes</li>
+              </ul>
+              <p>Other areas maybe suitable depending on individual assessment.</p></p>
+            <p><strong>Will I look frozen or unnatural?</strong><br />Not when done correctly. My approach focuses on <b>natural movement and subtle softening</b>, so you still look like yourself — just more refreshed.</p>
           </>
         );
 
@@ -75,9 +82,14 @@ function HomePage() {
         return (
           <>
             <h2>Lip & Cheek Volume FAQs</h2>
-            <p><strong>How long does filler last?</strong><br />6–18 months depending on area treated.</p>
-            <p><strong>Is there swelling?</strong><br />Mild swelling may occur for a few days.</p>
-            <p><strong>Will it look natural?</strong><br />Yes — balance and facial harmony are prioritised.</p>
+            <p><strong>What are dermal filler treatments</strong><br />Dermal fillers are injectable gels used to restore volume, enhance facial contours, and support facial structure. They are commonly used to enhance the lips and cheeks.</p>
+            <p><strong>What areas can be treated?</strong><br /> <p>Common areas include:</p>
+              <ul>
+                <li>Lips - to enhance shape, definition, or hydration</li>
+                <li>Cheeks - to restore volume and improve facial countour</li>
+              </ul>
+              <p>Suitability for treatment areas is assessed during consultation.</p></p>
+            <p><strong>Will it look natural?</strong><br />Treatment is tailored to your facial features and proportions. The aim is to enhance natural structure while maintaining a balanced and natural-looking result.</p>
           </>
         );
 
@@ -85,29 +97,80 @@ function HomePage() {
         return (
           <>
             <h2>Microneedling FAQs</h2>
-            <p><strong>Is there downtime?</strong><br />Mild redness for 1–3 days.</p>
-            <p><strong>How many sessions are needed?</strong><br />Typically 3–6 sessions for optimal results.</p>
-            <p><strong>What does it treat?</strong><br />Acne scars, pigmentation, fine lines, and texture.</p>
+            <p><strong>What is microneedling?</strong><br />Microneedling is a medical aesthetic treatment that uses fine,
+                sterile needles to create controlled micro-channels in the skin.
+                This process supports the skin’s natural repair response and may
+                improve overall skin quality, texture and tone.</p>
+            <p><strong>What are the benefits of microneedling?</strong><br /> <p>Microneedling may help to:</p>
+              <ul>
+                <li>Improve skin texture and smoothness</li>
+                <li>Support collagen production</li>
+                <li>Refine the appearance of pores</li>
+                <li>Improve acne scarring and uneven tone</li>
+                <li>Enhance brightness and overall appearance</li>
+              </ul>
+              <p>Results develop gradually as the skin regenerates.</p></p>
+            <p><strong>What can I expect during treatment?</strong><br /><ul>
+                <li>Skin is cleansed and prepared</li>
+                <li>Medical-grade needling device is used</li>
+                <li>Mild discomfort; numbing cream may be applied</li>
+                <li>Treatment takes approximately 30–45 minutes</li>
+              </ul>
+              <p>Most clients describe the sensation as tolerable.</p></p>
+               <p><strong>What does the skin look like after?</strong><br />
+               <p>Immediately after treatment:</p>
+              <ul>
+                <li>Redness (similar to sunburn)</li>
+                <li>Warmth or tightness</li>
+                <li>Mild swelling in some areas</li>
+              </ul>
+              <p>These effects usually settle within 24–72 hours.</p></p>
           </>
         );
 
       case "rejuran-classic":
         return (
           <>
-            <h2>Rejuran Classic FAQs</h2>
-            <p><strong>What does it improve?</strong><br />Skin elasticity, texture, and resilience.</p>
-            <p><strong>How many sessions?</strong><br />Usually 3 sessions spaced 4 weeks apart.</p>
-            <p><strong>Is there downtime?</strong><br />Mild redness or small injection marks may appear temporarily.</p>
+            <h2>Rejuran® Classic FAQs</h2>
+            <p><strong>What is Rejuran® Classic?</strong><br />Rejuran Classic contains polynucleotides that support skin
+                repair and regeneration.</p>
+            <p><strong>What does it help with?</strong><br /> <ul>
+                <li>Improve skin texture</li>
+                <li>Support collagen production</li>
+                <li>Strengthen the skin barrier</li>
+                <li>Improve resilience</li>
+                <li>Restore refreshed appearance</li>
+              </ul>
+              <p>
+                It improves skin quality — not volume or contour.
+              </p></p>
+            <p><strong>What it is NOT</strong><br /><ul>
+                <li>Not a dermal filler</li>
+                <li>Does not add volume</li>
+                <li>Does not change facial shape</li>
+              </ul></p>
           </>
         );
 
       case "rejuran-eye":
         return (
           <>
-            <h2>Rejuran Eye Treatment FAQs</h2>
-            <p><strong>What area is treated?</strong><br />Delicate under-eye skin.</p>
-            <p><strong>What does it target?</strong><br />Fine lines, crepey texture, and thinning skin.</p>
-            <p><strong>Is swelling expected?</strong><br />Mild swelling may occur for 24–48 hours.</p>
+            <h2>Rejuran® I Eye Treatment FAQs</h2>
+            <p><strong>What is Rejuran I?</strong><br /> A formulation designed specifically for delicate eye skin.</p>
+            <p><strong>What does it help with?</strong><br /> <ul>
+                <li>Fine lines around the eyes</li>
+                <li>Skin thickness and strength</li>
+                <li>Under-eye texture</li>
+                <li>Tired appearance over time</li>
+              </ul></p>
+            <p><strong>What it is NOT</strong><br /><ul>
+                <li>Not tear trough filler</li>
+                <li>Does not add under-eye volume</li>
+                <li>Does not dramatically change eye shape</li>
+              </ul>
+              <p>
+                The goal is subtle, progressive improvement.
+              </p></p>
           </>
         );
 
@@ -180,6 +243,29 @@ The line includes Rejuran Classic for full-face skin restoration and Rejuran I (
           <button className="button" onClick={openBooking}>
             Request Appointment
           </button>
+          <div className="contact-links">
+
+      <a
+        href="https://www.google.com/maps/place/Shop+17A%2F10+King+St,+Rockdale+NSW+2216,+Australia"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="contact-item"
+      >
+        📍 The Beautyque, Rockdale  
+        <br />
+        Shop 17A/10 King St, Rockdale NSW 2216
+      </a>
+
+      <a
+        href="https://www.instagram.com/macyflora_aesthetics"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="contact-item"
+      >
+        📷 Message us on Instagram
+      </a>
+
+    </div>
         </div>
       </section>
 
@@ -197,11 +283,11 @@ The line includes Rejuran Classic for full-face skin restoration and Rejuran I (
         <div className="faq-modal-content" style={{ textAlign: "center" }}>
           <h2>Select Rejuran Treatment</h2>
           <button className="button" onClick={() => chooseRejuran("rejuran-classic")}>
-            Rejuran Classic
+            Rejuran® Classic
           </button>
           <br /><br />
           <button className="button" onClick={() => chooseRejuran("rejuran-eye")}>
-            Rejuran Eye Treatment
+            Rejuran® I (Eye Treatment)
           </button>
         </div>
       </ModalFAQs>

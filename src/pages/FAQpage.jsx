@@ -5,6 +5,218 @@ function FAQpage () {
     <section>
       <h1>Frequently Asked Questions</h1>
 
+      <div className="faq-section">
+        <h2>Wrinkle Reduction</h2>
+
+        <FAQ
+          question="What is wrinkle reduction treatment?"
+          answer={
+            <>
+              <p>
+                Wrinkle reduction treatment use small amounts of muscle-relaxing medication to soften lines caused by repeated
+                facial movements such as frowning, squinting, or raising the eyebrows.
+              </p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="What areas can be treated?"
+          answer={
+            <>
+              <p>Common areas include:</p>
+              <ul>
+                <li>Forehead lines</li>
+                <li>Frown lines between the eyebrows</li>
+                <li>Crow's feet around the eyes</li>
+              </ul>
+              <p>Other areas maybe suitable depending on individual assessment.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="Will I look frozen or unnatural?"
+          answer={
+            <>
+              <p>Not when done correctly. My approach focuses on <b>natural movement and subtle softening</b>, so you still look like yourself — just more refreshed.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="When will I see results?"
+          answer={
+            <>
+              <p>Results usually begin to appear within <b>3-5 days</b>, with full results typically visible at around <b>10-14 days</b>.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="How long do results last?"
+          answer={
+            <>
+              <p>Results generally last <b>3-4 months</b>, although this can vary depending on metabolism, muscle strength, and lifestyle factors.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="Does the treatment hurt?"
+          answer={
+            <>
+              <p>Most people describe it as <b>quick and very tolerable</b>, with only small pinches from the injections.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="Is there any downtime?"
+          answer={
+            <>
+              <p>There is <b>minimal downtime</b>. You can usually return to normal activities immediately, although certain aftercare instructions should be followed.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="How often do I need treatments?"
+          answer={
+            <>
+              <p>
+                Most people return every <b>3-4 months</b> to maintain their results.
+              </p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="Is wrinkle reduction suitable for everyone?"
+          answer={
+            <>
+              <p>
+                Not always. A full consultation is required to assess suitability, medical history, and treatment goals. In some cases, I may recommend <b>alternative treatments or no treatment at all</b> if its not appropriate.
+              </p>
+            </>
+          }
+        />
+
+       <FAQ
+          question="Can wrinkle reduction prevent wrinkles?"
+          answer={
+            <>
+              <p>
+                Yes — when used strategically, it can help slow the formation of deeper lines by reducing repetitive muscle movement over time.
+              </p>
+            </>
+          }
+        />
+
+      </div>
+
+  {/* ================= DERMAL FILLER ================= */}
+          <div className="faq-section">
+        <h2>Dermal Filler (Lip & Cheek Volumisation)</h2>
+
+        <FAQ
+          question="What are dermal filler treatments?"
+          answer={
+            <>
+              <p>
+               Dermal fillers are injectable gels used to restore volume, enhance facial contours, and support facial structure. They are commonly used to enhance the lips and cheeks.
+              </p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="What areas can be treated?"
+          answer={
+            <>
+              <p>Common areas include:</p>
+              <ul>
+                <li>Lips - to enhance shape, definition, or hydration</li>
+                <li>Cheeks - to restore volume and improve facial countour</li>
+              </ul>
+              <p>Suitability for treatment areas is assessed during consultation.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="Will my results look natural?"
+          answer={
+            <>
+              <p>Treatment is tailored to your facial features and proportions. The aim is to enhance natural structure while maintaining a balanced and natural-looking result.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="When will I see results?"
+          answer={
+            <>
+              <p>Results are visible immediately after treatment, although mild swelling may occur. Final results are usually seen once swelling settles over the following days.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="How long do dermal fillers last?"
+          answer={
+            <>
+             <p>Longevity varies depending on the treatment area and individual factors.</p>
+              <ul>
+                <li>Lips filler typically lasts 6-12 months</li>
+                <li>Cheek filler can last 12-18 months</li>
+              </ul>
+            </>
+          }
+        />
+
+        <FAQ
+          question="Is the treatment painful?"
+          answer={
+            <>
+              <p>A topical numbing cream is usually applied before treatment to improve comfort. Most clients find the treatment tolerable.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="Is there downtime after treatment?"
+          answer={
+            <>
+              <p>Most clients can return to normal activities shortly after treatment. Mild swelling, redness, or bruising may occur and usually resolves within a few days.</p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="Is dermal filler suitable for everyone?"
+          answer={
+            <>
+              <p>
+                Not everyone is suitable for treatment. A consultation is required to assess medical history, facial anatomy, and treatment goals.
+              </p>
+            </>
+          }
+        />
+
+        <FAQ
+          question="Do I need consultation before treatment?"
+          answer={
+            <>
+              <p>
+                Yes. Dermal filler treatments require a consultation and medical prescription before treatment can proceed.
+              </p>
+            </>
+          }
+        />
+
+      </div>
+
       {/* ================= MICRONEEDLING ================= */}
       <div className="faq-section">
         <h2>Microneedling</h2>
