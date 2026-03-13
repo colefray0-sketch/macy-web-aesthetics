@@ -251,7 +251,7 @@ The line includes Rejuran Classic for full-face skin restoration and Rejuran I (
         rel="noopener noreferrer"
         className="contact-item"
       >
-        ⚲ The Beautyque, Rockdale  
+        📍 The Beautyque, Rockdale  
         <br />
         Shop 17A/10 King St, Rockdale NSW 2216
       </a>
@@ -262,7 +262,7 @@ The line includes Rejuran Classic for full-face skin restoration and Rejuran I (
         rel="noopener noreferrer"
         className="contact-item"
       >
-        🅾 Message us on Instagram
+        📷 Message us on Instagram
       </a>
 
       <a
@@ -271,7 +271,7 @@ The line includes Rejuran Classic for full-face skin restoration and Rejuran I (
         rel="noopener noreferrer"
         className="contact-item"
       >
-        𝐟 Visit us on Facebook
+        👍 Visit us on Facebook
       </a>
 
     </div>
