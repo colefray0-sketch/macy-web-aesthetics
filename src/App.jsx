@@ -239,7 +239,7 @@ The line includes Rejuran Classic for full-face skin restoration and Rejuran I (
       {/* CONTACT */}
       <section id="contact" className="section-soft">
         <div className="container">
-          <h2>Begin With Consultation</h2>
+          <h2>Begin With a Consultation</h2>
           <button className="button" onClick={openBooking}>
             Request Appointment
           </button>
