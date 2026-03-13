@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="footer">
-      © {new Date().getFullYear()} Macy Web Aesthetics. All rights reserved.
+      © {new Date().getFullYear()} Macy Flora Aesthetics. All rights reserved.
     </footer>
   )
 }
